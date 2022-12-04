@@ -5,7 +5,7 @@
 
 int main() {
     std::ifstream in;
-    in.open("input");
+    in.open("day1/input");
 
     if (!in.is_open())
         return 1;
