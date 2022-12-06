@@ -11,7 +11,6 @@ public class Day5 {
         String[] input = new String[8];
         for (int i = 0; i < 8; i++) {
             input[i] = br.readLine();
-            System.out.println(input[i]);
         }
 
         for (int i = 7; i >= 0; i--) {
