@@ -27,7 +27,7 @@ public class Day7 {
     public static int needed = 0;
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("day5/input"));
+        BufferedReader br = new BufferedReader(new FileReader("day7/input"));
 
         Node root = new Node("/", 0, null);
         Node cur = root;
